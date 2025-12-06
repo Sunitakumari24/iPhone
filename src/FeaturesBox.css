@@ -1,0 +1,40 @@
+/* Main container */
+.boxes-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 80px;
+  flex-wrap: wrap;
+}
+
+/* Single box */
+.box-heading {
+  text-align: center;
+  padding: 20px 30px;
+  background: #111;          /* Light black */
+  border-radius: 14px;
+  width: 250px;
+  /* transition: 0.3s ease-in-out; */
+}
+
+/* Hover effect (Apple style) */
+/* .box-heading:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+} */
+
+/* Small title */
+.box-heading p {
+  font-size: 16px;
+  color: #aaa;
+  margin-bottom: 5px;
+}
+
+/* Big value */
+.box-heading h1 {
+  font-size: 28px;
+  color: #fff;
+  margin: 0;
+  font-weight: 600;
+}

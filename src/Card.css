@@ -1,0 +1,48 @@
+.card-section {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 50px;
+  flex-wrap: wrap;        /* mobile responsive */
+}
+
+.card {
+  width: 300px;           /* card size */
+  background: #111;       /* dark theme */
+  padding: 20px;
+  border-radius: 18px;
+  color: white;
+  text-align: center;
+  border: 2px solid #222; 
+  transition: 0.3s ease;
+}
+
+/* 
+/* IMAGE WRAPPER */
+.image-card {
+  width: 100%;
+  height: 180px;          /* fixed height */
+  overflow: hidden;       /* bahar na nikle */
+  border-radius: 15px;    /* rounded corners */
+}
+
+/* IMAGE will cover entire box */
+.image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;      /* image ko pura box me fill karega */
+  border-radius: 15px;
+}
+
+/* Text styling */
+.card h2 {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card p {
+  margin-top: 10px;
+  color: #b8b8b8;
+  font-size: 15px;
+}
